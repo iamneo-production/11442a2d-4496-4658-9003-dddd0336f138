@@ -1,0 +1,119 @@
+nav{
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    color: #c43c8c;
+}
+.navbar {
+    width: 100%;
+    height: 100px;
+    /* background-color:darkslateblue; */
+    display: flex;
+    flex-direction: row;
+    background-color: #c0c0c0;
+    box-shadow: 2px 3px 5px rgb(127, 127, 127);
+  }
+/*   
+  .navbar .leftSide {
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+  }
+  
+  .navbar .leftSide img {
+    width: 70px;
+  } */
+  
+  .navbar .nav-items {
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .navbar a {
+    color:white;
+    text-decoration: none;
+    margin: 20px;
+  }
+  .navbar a:hover{
+    color:rgb(183, 44, 118);  }
+  
+  .navbar .nav-items button {
+    /* background-color: transparent; */
+    border: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+  }
+  
+  .navbar .nav-items svg {
+    font-size: 40px;
+  }
+  
+  .navbar #open {
+    padding-left: 0px;
+  }
+  .navbar #open img {
+    display: none;
+  }
+  
+  .navbar #close img {
+    display: inherit;
+  }
+  
+  .navbar #open .hiddenLinks {
+    display: inherit;
+    margin-left: 30px;
+  }
+  
+  .navbar #close .hiddenLinks {
+    display: none;
+  }
+  
+  .navbar #open a {
+    width: 70px;
+    margin: 5px;
+  }
+  /* @media only screen and (max-width: 900px) {
+    .navbar .rightSide a {
+      width: 70px;
+    }
+    .navbar .leftSide {
+      padding-left: 50px;
+    }
+  } */
+  
+  @media only screen and (max-width: 600px) {
+    .navbar .nav-items a {
+      display: none;
+    }
+  
+    .navbar .nav-items {
+      justify-content: flex-end;
+      padding-right: 50px;
+    }
+  
+    .navbar .nav-items button {
+      display: inherit;
+    }
+  }
+  
+  @media only screen and (min-width: 600px) {
+    .navbar .nav-items button {
+      display: none;
+    }
+  
+    .hiddenLinks {
+      display: none;
+    }
+  }
+  /* .nav-list:hover{
+    box-shadow: 0 5px 8px rgba(210, 238, 236, 0.2);
+  } */
+  Link{
+    text-decoration: none;
+  }
