@@ -1,13 +1,13 @@
-package com.example.springapp;
+package com.max.appserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringappApplication {
+public class ServiceAppserverSample1Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringappApplication.class, args);
+		SpringApplication.run(ServiceAppserverSample1Application.class, args);
 	}
 
 }
